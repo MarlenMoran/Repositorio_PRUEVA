@@ -9,5 +9,7 @@ int main()
     scanf ("%d", &b1);
     suma=a1+b1;
     printf("La suma es= %d",suma);
+    printf("\n"); // Evitar translapamiento de app y línea comando
     return 0;
+
 }
